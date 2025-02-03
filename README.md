@@ -128,7 +128,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📬 Contact  
 For questions or suggestions, feel free to reach out:  
-- **LinkedIn**: -  [Gulsahbb](https://www.linkedin.com/in/gulsahbaskurt/)
+- **LinkedIn**: -  [Gulsahbb](https://www.linkedin.com/in/gulsahbaskurt)
 - **GitHub**: [Gulsahbb](https://github.com/Gulsahbb)  
 
 </details>
