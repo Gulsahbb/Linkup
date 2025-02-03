@@ -117,7 +117,7 @@ To contribute to the project:
 ## ⭐ Contributors  
 The following developers have contributed to this project:  
 - [Gülnur Türkmen](https://github.com/GulnurTurkmen)  
-- [Gülşah Başkurt](https://github.com/Gulsahbb)  
+- [Rico G](https://github.com/ricoglr)  
 
 ---
 
@@ -128,8 +128,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📬 Contact  
 For questions or suggestions, feel free to reach out:  
-- **LinkedIn**: -  [ricoglr](https://www.linkedin.com/in/ricoglr)
-- **GitHub**: [ricoglr](https://github.com/ricoglr)  
+- **LinkedIn**: -  [Gulsahbb](https://www.linkedin.com/in/gulsahbaskurt/)
+- **GitHub**: [Gulsahbb](https://github.com/Gulsahbb)  
 
 </details>
 
