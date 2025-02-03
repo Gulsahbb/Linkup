@@ -51,7 +51,7 @@ Projeye katkı sağlamak isterseniz:
 ## ⭐ Katkıda Bulunanlar  
 Bu projeye katkıda bulunan geliştiriciler:  
 - [Gülnur Türkmen](https://github.com/GulnurTurkmen)  
-- [Gülşah Başkurt](https://github.com/Gulsahbb)  
+- [Rico G](https://github.com/ricoglr)  
 
 ---
 
@@ -62,8 +62,8 @@ Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](L
 
 ## 📬 İletişim  
 Sorularınız veya önerileriniz için bizimle iletişime geçebilirsiniz:  
-- **LinkedIn**: -  [ricoglr](https://www.linkedin.com/in/ricoglr)
-- **GitHub**: [ricoglr](https://github.com/ricoglr)  
+- **LinkedIn**: -  [Gulsahbb](https://www.linkedin.com/in/gulsahbaskurt)
+- **GitHub**: [Gulsahbb](https://github.com/Gulsahbb)  
 
 </details>
 
