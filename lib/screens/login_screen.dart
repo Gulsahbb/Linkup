@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import '../widgets/custom__textfield.dart';
 import 'forgot_password_screen.dart';
+import 'register_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -83,7 +84,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
                   const SizedBox(height: 30),
                   Text(
-                    'Giriş Yap',
+                    _isLogin ? 'Giriş Yap' : 'Kayıt Ol',
                     style: Theme.of(context).textTheme.titleLarge?.copyWith(
                           color: Theme.of(context).colorScheme.onSecondary,
                           fontSize: 22,
@@ -92,13 +93,15 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   const SizedBox(height: 5),
                   Text(
-                    'Bilgilerinizi Girerek Giriş Yapın',
+                    _isLogin
+                        ? 'Bilgilerinizi Girerek Giriş Yapın'
+                        : 'Bilgilerinizi Girerek Üye Olun',
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Theme.of(context)
                               .colorScheme
                               .onSecondary
                               .withOpacity(0.7),
-                          fontSize: 15,
+                          fontSize: 16,
                         ),
                   ),
                   const SizedBox(height: 8),
@@ -304,36 +307,32 @@ class _LoginScreenState extends State<LoginScreen> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            _isLogin
-                                ? 'Hesabın yok mu? '
-                                : 'Zaten hesabınız var mı? Giriş yapın',
+                            'Hesabınız yok mu? ',
                             style: Theme.of(context)
                                 .textTheme
                                 .bodyMedium
                                 ?.copyWith(
                                   color: Theme.of(context)
                                       .colorScheme
-                                      .onSurface
-                                      .withOpacity(0.7),
-                                  fontSize: 16,
+                                      .onSurfaceVariant,
                                 ),
                           ),
                           TextButton(
                             onPressed: () {
-                              setState(() {
-                                _isLogin = !_isLogin;
-                                _error = '';
-                              });
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => const RegisterScreen()),
+                              );
                             },
                             child: Text(
-                              _isLogin ? 'Kayıt Ol' : 'Giriş Yap',
+                              'Kayıt Ol',
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyMedium
                                   ?.copyWith(
                                     color:
                                         Theme.of(context).colorScheme.primary,
-                                    fontSize: 16,
                                     fontWeight: FontWeight.w600,
                                   ),
                             ),
